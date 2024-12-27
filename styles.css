@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: #0B0C10;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #66FCF1;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 60px;
+}
+
+main {
+    margin: 100px;
+    max-width: 400px;
+}
+
+.top-section {
+    border: solid;
+    border-color: #C5C6C7;
+    padding: 5px;
+}
+
+input {
+    width:80%;
+    height:50px;
+    font-size: 40px;
+    border: none;
+    color: #66FCF1;
+}
+
+input:hover {
+    margin-bottom: 2px;
+    background: #1F2833;
+}
+
+button {
+    width: 15%;
+    font-size: 40px;
+    border: none;
+    background-color: #0B0C10;
+}
+
+button:hover {
+    background-color: #1F2833;
+    padding-bottom: 5px;
+}
+
+.month-days {
+    color: white;
+    border: solid;
+    border-color:#C5C6C7;
+    padding-top: 10px;
+}
+
+#month {
+    font-size: 40px;
+    margin: 20px;
+}
+
+.arrows {
+    font-size: 30px;
+    position: relative;
+    bottom: 3px;
+    color: #45A29E;
+}
+
+.arrows:hover {
+    color:#66FCF1;
+}
+
+.days {
+    font-size: 30px;
+    margin: 12px;
+    color: #66FCF1;
+}
+
+#sunday {
+    margin-left: 0px;
+}
+
+#tuesday {
+    margin-left: 14px;
+}
+
+#wednesday {
+    margin-left: 15px;
+}
+
+#friday {
+    margin-left: 18px;
+}
+
+#saturday {
+    margin-right: 0px;
+}
+
+.number-container {
+    color: white;
+    display: grid;
+    font-size: 10px;
+    grid-template-columns: 55px 55px 55px 55px 53px 53px 53px;
+    grid-gap: 2px;
+    border: solid;
+    border-color: #C5C6C7;
+    padding-left: 1px;
+    font-size: 30px;
+}
+
+.number-container div {
+    padding: 15px 0px;
+    color: #66FCF1;
+    background-color: #1F2833;
+}
+
+.number-container div:hover {
+    background-color: #45A29E;
+}
+
